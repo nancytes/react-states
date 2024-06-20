@@ -26,6 +26,8 @@ import Component1 from "./Components/UseContext/Component1";
 import UsingUseContext from "./Components/UseContext/UsingUseContext";
 import CounterDisplayer from "./Components/CounterDisplayer";
 import Mycounter from "./Components/Mycounter";
+import IncreaseDecreaseCount from "./Components/Hook/IncreaseDecreaseCount";
+import UseEffectForTitle from "./Components/useEfffect/UseEffectForTitle";
 
 // First creat context
 export const MyContext = React.createContext();
@@ -34,8 +36,10 @@ function App() {
   return (
     <div className="App">
       {/* <UsingClassLifeCycleComponent /> */}
-      <Mycounter />
-      {/* <CounterDisplayer /> */}
+      {/* <Mycounter /> */}
+      {/* <IncreaseDecreaseCount /> */}
+      <UseEffectForTitle />
+      
     </div>
   );
 }
