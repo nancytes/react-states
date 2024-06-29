@@ -36,8 +36,8 @@ function App() {
   return (
     <div className="App">
       {/* <UsingClassLifeCycleComponent /> */}
-      {/* <Mycounter /> */}
-      {/* <IncreaseDecreaseCount /> */}
+      <Mycounter />
+      <IncreaseDecreaseCount />
       <UseEffectForTitle />
       
     </div>
